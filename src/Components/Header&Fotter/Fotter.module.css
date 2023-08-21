@@ -1,0 +1,22 @@
+.footer {
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	background-color: antiquewhite;
+	height: 100px;
+	z-index: 0;
+	clear: both;
+}
+.image1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 80px;
+}
+
+.image2 {
+	position: absolute;
+	bottom: 0;
+	right: 0; 
+	height: 80px;
+}

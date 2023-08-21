@@ -1,0 +1,113 @@
+.div {
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: "source-sans-pro";
+    font-variant-numeric: slashed-zero;
+    margin: 25px;
+}
+.divclick {
+        text-align: center;
+        color: white;
+    }
+.radio-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+}
+audio {
+    border: 5px solid antiquewhite;
+    border-radius: 60px;
+    height: 40px;
+}
+.continerH {
+    font-family: 'Crimson Text';
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 36px;
+    color: #FCF4EC;
+    line-height: 0.5;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+    .style-seven:before {
+        display: block;
+        content: "";
+        height: 30px;
+        color: white;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: white;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }
+
+.button-85 {
+    padding: 0.6em 4em;
+    border: none;
+    outline: none;
+    color: black;
+    background: #FCF4EC;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: -10px;
+}
+
+.button-85:before {
+    content: "";
+    background: linear-gradient( 45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000 );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FCF4EC;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}

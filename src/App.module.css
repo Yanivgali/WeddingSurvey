@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.submit {
+    flex-grow: 1;
+    background-image: url('./Components/Images/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: white;
+    height: inherit;
+    box-sizing: border-box;
+    width: 100%;
+    float: right;
+}
+@media screen and (max-height: 950px) {
+    .submit {
+        height: auto;
+    }
+
+}
+
+    .containerH {
+        letter-spacing: 10px;
+    }
